@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 import os,sys,glob
 
-peseudpath = '/DPA/data/MD/script/SG15_v1.0_Pseudopotential/SG15_ONCV_v1.0_upf'
-orbpath = '/DPA/data/MD/script/all_DZP_10au'
+peseudpath = '/data/database/L53-perovskite-oxides/test/DPA-main/data/MD/script/SG15_v1.0_Pseudopotential/SG15_ONCV_v1.0_upf'
+orbpath = '/data/database/L53-perovskite-oxides/test/DPA-main/data/MD/script/all_DZP_10au'
 #peseudpath = '.'
 #orbpath = '.'
 copypp = True
