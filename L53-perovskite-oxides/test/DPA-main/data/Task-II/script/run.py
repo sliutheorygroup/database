@@ -7,7 +7,7 @@ task_list = []
 
 for i in range(0, 500, 5):
     dir_name = f'{i:04}/'
-    task = Task(command='OMP_NUM_THREADS=48 mpirun -np 1 abacus > log', task_work_path=dir_name, forward_files=['*'], backward_files=['*'], outlog='log')
+    task = Task(command='OMP_NUM_THREADS=16 mpirun -np 1 abacus > log', task_work_path=dir_name, forward_files=['*'], backward_files=['*'], outlog='log')
     task_list.append(task)
 
 submission = Submission(
