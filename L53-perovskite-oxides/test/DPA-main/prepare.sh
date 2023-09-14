@@ -27,5 +27,5 @@ done
 
 for i in BT PT ST KN KNN PST PZT a-PIN_PMN_PT b-PIN_PMN_PT
 do
-     cp json/job-phase.json data/phase-transition/$i
+     cp json/job.json data/phase-transition/$i
 done
