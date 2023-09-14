@@ -1,5 +1,5 @@
 
-CURRENT='pwd'
+CURRENT=`pwd`
 
 mkdir collect
 cd collect

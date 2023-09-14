@@ -1,5 +1,6 @@
 #!/bin/bash
-CURRENT='pwd'
+
+CURRENT=`pwd`
 mkdir energy-vs-time
 for j in  300K 450K 900K
 do

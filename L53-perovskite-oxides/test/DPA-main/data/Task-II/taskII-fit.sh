@@ -1,4 +1,5 @@
-CURRENT='pwd'
+
+CURRENT=`pwd`
 
 #download jobs and get the conformations
 for j in 300K 450K 900K
