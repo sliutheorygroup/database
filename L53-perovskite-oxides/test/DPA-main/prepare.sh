@@ -9,7 +9,7 @@ cp model/graph.pb data/fitting/script
 for i in 300K 450K 900K
 do 
      cp model/graph.pb data/MD/$i/script
-     cp model/graph.pb data/MD/$i/script-cal
+     cp model/graph.pb data/MD/$i/dptest
 done
 
 for i in BT PT ST KN KNN PST PZT a-PIN_PMN_PT b-PIN_PMN_PT
