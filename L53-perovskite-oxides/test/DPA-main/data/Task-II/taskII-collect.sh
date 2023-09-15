@@ -12,6 +12,7 @@ do
 for i in BST BT BZT-BCT NN-BT PMN-PT PZT KNN PIN-PMN-PT PT ST
 do
 #dptest
+
         cp ./dptest/abscf2dp.py $i-$j/script 
         cp ./dptest/graph.pb $i-$j/script
         cd $i-$j/script
@@ -20,6 +21,7 @@ do
         cd "$CURRENT"
 
 #energy
+
 	cp ./$i-$j/script/dptest-$i-$j.e.out ./collect/energy
 	cp ./$i-$j/script/dptest-$i-$j.f.out ./collect/force
 	cd collect/energy
@@ -38,6 +40,7 @@ do
 	cd "$CURRENT"
 
 #force
+
 	cp ./dptest/sort.sh collect/force
 	cp ./dptest/sample-f.py collect/force
         cd collect/force

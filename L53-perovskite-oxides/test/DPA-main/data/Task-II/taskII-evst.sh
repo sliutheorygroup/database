@@ -7,11 +7,12 @@ do
   for i in BST BT BZT-BCT KNN NN-BT PIN_PMN_PT PMN_PT PT PZT ST
   do
   cd $i-$j
-  cp script/dptest-$i-$j.e.out ../../energy-vs-time/
-  cd ../..
+  cp script/dptest-$i-$j.e.out ../energy-vs-time/
+  cd ..
   cd energy-vs-time
   mv dptest-$i-$j.e.out  $i-$j.e.out   
   cd "$CURRENT"  
+done
 done
 
 cd energy-vs-time

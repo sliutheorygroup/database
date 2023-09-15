@@ -2,6 +2,7 @@
 CURRENT=`pwd`
 
 #download jobs and get the conformations
+
 for j in 300K 450K 900K
 do
 for i in BT BZT-BCT NN-BT PMN-PT PZT KNN PIN-PMN-PT PT BST ST
@@ -21,6 +22,7 @@ do
   python readdata.py
 
 #abacus jobs
+
     for ((k = 0; k <= 500; k += 5)); do
         dir_name=$(printf "%04d" $k)
         mkdir "$dir_name"
